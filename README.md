@@ -43,3 +43,7 @@ If your plugin manager is not already supported, you have two options:
 2. Open an issue and I will implement it. However, I can only do this if the
    plugin manager in question provides adequate documentation concerning its
    usage and behaviour.
+
+
+
+[fisher]: https://github.com/jorgebucaran/fisher
