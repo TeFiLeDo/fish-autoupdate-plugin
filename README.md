@@ -3,7 +3,7 @@ A fish shell plugin that triggers a plugin manager to run an update up to once a
 day.
 
 ## Installation
-To install this plugin with fisher, just run:
+To install this plugin with [fisher], just run:
 ```console
 fisher install TeFiLeDo/fish-autoupdate-plugin
 ```
