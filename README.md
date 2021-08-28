@@ -32,6 +32,30 @@ output path can be configured:
 set -U faup_target <path>
 ```
 
+### Use other plugin manager than [fisher]
+If you want to use another plugin manager than [fisher], you can do this by:
+```console
+set -U faup_plugin_manager <pm>
+```
+
+For supported plugin managers see the list below.
+
+**Note:** If `<pm>` doesn't match a supported plugin manager, [fisher] is used
+as default.
+
+### Change update frequency
+If you want updates to happen more often or less than once a day, you can do
+this:
+```console
+set -U faup_update_delta <delta>
+```
+
+`<delta>` is the minimum number of seconds between updates.
+
+**Note:** `<delta>` is passed as an argument to [fishs math command][fish-math].
+This means you can use expressions like `"24*60*60"` (which is also the
+_default_ value).
+
 ## Supported plugin managers
 Currently only [fisher] is supported. I'm happy to add support for more plugin
 managers if requested. In fact, I already prepared the plugin for that

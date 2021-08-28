@@ -11,7 +11,11 @@ function _fish_autoupdate_plugin
 
     # check if a day has passed since the last autoupdate
     if set -q faup_last_update
-        if test $faup_last_update -gt (math (date +%s) - "24*60*60")
+        set -q faup_update_delta
+        and set -l delta $faup_update_delta
+        or set -l delta "24*60*60"
+    
+        if test $faup_last_update -gt (math (date +%s) - $delta)
             return
         end
     end
