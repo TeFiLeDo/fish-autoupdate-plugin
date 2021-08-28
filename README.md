@@ -68,7 +68,10 @@ If your plugin manager is not already supported, you have two options:
    plugin manager in question provides adequate documentation concerning its
    usage and behaviour.
 
-
+## Changelog
+### [v0.1 - Adamant Ant - 2021-08-28][v0.1]
+This is the _initial release_. As such, there are no changes to explain.
 
 [fisher]: https://github.com/jorgebucaran/fisher
 [fish-math]: https://fishshell.com/docs/current/cmds/math.html
+[v0.1]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tags/v0.1
