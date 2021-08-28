@@ -42,12 +42,12 @@ function _fish_autoupdate_plugin
 
     # download new plugin list
     if set -q faup_url
-        set -l target "$HOME/.config/fish/fish_plugins"
-        if set -q faup_target
-            set target $faup_target
-        end
-        
         echo "[faup]: downloading plugin list from $faup_url, saving to $target"
+        
+        set -q faup_target
+        and set -l target $faup_target
+        or set -l target "$HOME/.config/fish/fish_plugins"
+        
         curl -L $faup_url -o $target
         if test $status != 0
             echo "[faup]: downloading plugin list failed"
@@ -55,9 +55,12 @@ function _fish_autoupdate_plugin
     end
 
     # trigger update
-    switch $fuap_plugin_manager
+    switch $faup_plugin_manager
         case fisher '*'
             fisher update
+    end
+    if test $status != 0
+        echo "[faup]: update failed, consult plugin manager for further detail"
     end
 
     # cleanup
