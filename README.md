@@ -71,3 +71,4 @@ If your plugin manager is not already supported, you have two options:
 
 
 [fisher]: https://github.com/jorgebucaran/fisher
+[fish-math]: https://fishshell.com/docs/current/cmds/math.html
