@@ -9,6 +9,11 @@ function _fish_autoupdate_plugin
         return
     end
 
+    # only run at shell startup
+    if test (status current-command) != "fish"
+        return
+    end
+
     # check if a day has passed since the last autoupdate
     if set -q faup_last_update
         set -q faup_update_delta
