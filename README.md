@@ -78,5 +78,5 @@ This is the _initial release_. As such, there are no changes to explain.
 
 [fisher]: https://github.com/jorgebucaran/fisher
 [fish-math]: https://fishshell.com/docs/current/cmds/math.html
-[v0.1]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tags/v0.1
-[v0.2]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tags/v0.2
+[v0.1]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.1
+[v0.2]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.2
