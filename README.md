@@ -69,9 +69,14 @@ If your plugin manager is not already supported, you have two options:
    usage and behaviour.
 
 ## Changelog
+### [v0.2 - Blushing Bison - 2021-09-08][v0.2]
+#### Changed
+- [Installing this extension will no longer trigger an update.](6ded7ab0b3dedb2a79ffc501c25dc906a9ea5abf)
+
 ### [v0.1 - Adamant Ant - 2021-08-28][v0.1]
 This is the _initial release_. As such, there are no changes to explain.
 
 [fisher]: https://github.com/jorgebucaran/fisher
 [fish-math]: https://fishshell.com/docs/current/cmds/math.html
 [v0.1]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tags/v0.1
+[v0.2]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tags/v0.2
