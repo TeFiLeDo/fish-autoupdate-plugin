@@ -69,6 +69,10 @@ If your plugin manager is not already supported, you have two options:
    usage and behaviour.
 
 ## Changelog
+### [v0.3 - Cringey Crocodile - 2022-07-30][v0.3]
+#### Changed
+- [The TMP dir (used for locking) will now be found at runtime instead of just using `/tmp`](f868eafb79e6a0f6b99f35038e925d8e3dfa0822)
+
 ### [v0.2 - Blushing Bison - 2021-09-08][v0.2]
 #### Changed
 - [Installing this extension will no longer trigger an update.](6ded7ab0b3dedb2a79ffc501c25dc906a9ea5abf)
@@ -80,3 +84,4 @@ This is the _initial release_. As such, there are no changes to explain.
 [fish-math]: https://fishshell.com/docs/current/cmds/math.html
 [v0.1]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.1
 [v0.2]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.2
+[v0.3]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.3
