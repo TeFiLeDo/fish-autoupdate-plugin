@@ -26,7 +26,14 @@ function _fish_autoupdate_plugin
     end
 
     # prepare lock file path
-    set -l lock "/tmp/fish-autoupdate-plugin.$USER"
+    if set -q XDG_RUNTIME_DIR
+        set lockdir $XDG_RUNTIME_DIR
+    else if set -q TMPDIR
+        set lockdir $TMPDIR
+    else
+        set lockdir "/tmp"
+    end
+    set -l lock "$lockdir/fish-autoupdate-plugin.$USER"
 
     # check if lock exists
     if test -L $lock
