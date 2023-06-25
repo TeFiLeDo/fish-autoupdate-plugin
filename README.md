@@ -57,9 +57,12 @@ This means you can use expressions like `"24*60*60"` (which is also the
 _default_ value).
 
 ## Supported plugin managers
-Currently only [fisher] is supported. I'm happy to add support for more plugin
-managers if requested. In fact, I already prepared the plugin for that
-eventuality.
+The following plugin managers are supported. Use the following keys to use them:
+- [fisher]: `fisher`, or any other value not used by an other plugin manager.
+- [Oh My Fish][omf]: `omf`
+
+I'm happy to add support for more plugin managers if requested. In fact, I
+already prepared the plugin for that eventuality.
 
 If your plugin manager is not already supported, you have two options:
 
@@ -69,6 +72,10 @@ If your plugin manager is not already supported, you have two options:
    usage and behaviour.
 
 ## Changelog
+### [v0.4 - Dancing Dragonfly - 2023-06-25][v0.4]
+#### Added
+- The [Oh My Fish][omf] plugin manager is now supported.
+
 ### [v0.3 - Cringey Crocodile - 2022-07-30][v0.3]
 #### Changed
 - [The TMP dir (used for locking) will now be found at runtime instead of just using `/tmp`](f868eafb79e6a0f6b99f35038e925d8e3dfa0822)
@@ -85,3 +92,4 @@ This is the _initial release_. As such, there are no changes to explain.
 [v0.1]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.1
 [v0.2]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.2
 [v0.3]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.3
+[v0.4]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.4

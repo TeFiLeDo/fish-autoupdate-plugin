@@ -72,6 +72,8 @@ function _fish_autoupdate_plugin
 
     # trigger update
     switch $faup_plugin_manager
+        case omf
+            omf update
         case fisher '*'
             fisher update
     end
