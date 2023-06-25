@@ -74,7 +74,7 @@ If your plugin manager is not already supported, you have two options:
 ## Changelog
 ### [v0.4 - Dancing Dragonfly - 2023-06-25][v0.4]
 #### Added
-- The [Oh My Fish][omf] plugin manager is now supported.
+- [The "Oh My Fish" plugin manager is now supported.](ca25f6601de6c78cb8d1002e8ff0986e4fa85f24)
 
 ### [v0.3 - Cringey Crocodile - 2022-07-30][v0.3]
 #### Changed
