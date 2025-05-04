@@ -10,7 +10,7 @@ function _fish_autoupdate_plugin
     end
 
     # only run at shell startup
-    if test (status current-command) != "fish"
+    if test (status current-command | tr -d '\n') != "fish"
         return
     end
 
