@@ -72,6 +72,10 @@ If your plugin manager is not already supported, you have two options:
    usage and behaviour.
 
 ## Changelog
+### [v0.5 - Enchanting Elephant - 2025-05-04][v0.5]
+### Fixed
+- [Fish version 4 is now supported.](8107c7c1d5a1b33860e60f5f672dcd4e93b32ba5)
+
 ### [v0.4 - Dancing Dragonfly - 2023-06-25][v0.4]
 #### Added
 - [The "Oh My Fish" plugin manager is now supported.](ca25f6601de6c78cb8d1002e8ff0986e4fa85f24)
@@ -94,3 +98,4 @@ This is the _initial release_. As such, there are no changes to explain.
 [v0.2]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.2
 [v0.3]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.3
 [v0.4]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.4
+[v0.5]: https://github.com/TeFiLeDo/fish-autoupdate-plugin/releases/tag/v0.5
